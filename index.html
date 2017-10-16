@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--
+                      made by sam chang. pls hire me.
+                      http://samchang.design
+
+                      
+
+                      ─────────███─────────
+                      ─────────█$█─────────
+                      ─────█████$██████────
+                      ───███████$████████──
+                      ──████████$████████──
+                      ─█████████$████████──
+                      ─███████─█$█──████───
+                      ─███████─█$█─────────
+                      ─█████████$█─────────
+                      ─█████████$█████─────
+                      ──████████$███████───
+                      ────██████$█████████─
+                      ───────███$█████████─
+                      ─────────█$█─████████
+                      ─────────█$█──███████
+                      ──████───█$█──███████
+                      ─█████████$█████████─
+                      ██████████$█████████─
+                      ─█████████$████████──
+                      ───███████$██████────
+                      ─────────█$█─────────
+                      ─────────███─────────
+
+
+
+-->
+<html>
+  <head>
+      <title>A MILLI</title>
+      <link href="https://fonts.googleapis.com/css?family=Purple+Purse" rel="stylesheet">
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <style type = "text/css">
+
+        .container {
+          width: 100%;
+          height: 100%;
+          position: relative;
+          background-color: white;
+        }
+
+        body, html {
+          width: 100%;
+          height: 100%;
+          margin: 0;
+          height: 100%;
+          overflow: hidden;
+        }
+
+        .money {
+          width: 300px;
+        	height: 72px;
+        	line-height: 36px;
+        	margin-left: -150px;
+        	margin-top: -130px;
+        	text-align: center;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          font-size: 2em;
+          letter-spacing: 3px;
+          z-index: 999
+        }
+
+        #canvas {
+          opacity: 0;
+        }
+
+
+      </style>
+  </head>
+  <body>
+    <div class = "container">
+    <div class = "white">
+      <div class = "money">
+        <h1>A MILLI</h1>
+      </div>
+      <canvas id = "canvas" width="2000%" height="2000%"></canvas>
+      <audio class = "amilli" preload loop>
+          <source src = "amilli.wav">
+      </audio>
+    </div>
+    </div>
+      <script src = "functions.js"></script>
+  </body>
+</html>

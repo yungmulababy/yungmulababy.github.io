@@ -1,10 +1,10 @@
 
       $('.money').on('mouseover', function(){
-        $('.amilli').get(0).play();
+        $('.amilli')[0].play();
         $('#canvas').css('opacity','1');
       });
       $('.money').on('mouseout',function(){
-        $('.amilli').get(0).pause();
+        $('.amilli')[0].pause();
         $('#canvas').css('opacity','0');
       });
 
